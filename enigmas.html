@@ -14,9 +14,13 @@
                 <p class="enigma">Algumas apenas esperam ser ouvidas</p>
                 <button onclick="showHint(this)">Orar   </button>
                 <p class="hint hidden">Que sejamos... iluminados.</p>
-                <a href="revelacao.html">
-                    <button class="next-button">Ir para Revelação</button>
-                </a>
+                <button class="next-button" id="nextBtn">Ir para Revelação</button>
+
+                <script>
+                    document.getElementById("nextBtn").addEventListener("click", function() {
+                        window.location.href = "revelacao.html";
+                    });
+                </script>
                             </ul>
     </div>
 
