@@ -1,9 +1,5 @@
 
-window.onload = function() {
-    setTimeout(function() {
-        document.getElementById('revealBtn').classList.remove('hidden');
-    }, 5000);
-};
+
 
 function revealNext() {
     window.location.href = 'enigmas.html';
